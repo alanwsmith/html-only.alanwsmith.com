@@ -56,18 +56,21 @@
 
       :root {
         /* B&W Base Variables */
-        --dark-mode__black: oklch(0% 0 0);
-        --dark-mode__black-faded: oklch(0% 0 0 / 0.4);
-        --dark-mode__black-faded2: oklch(0% 0 0 / 0.1);
-        --dark-mode__white: oklch(100% 0 0);
-        --dark-mode__white-faded: oklch(100% 0 0 / 0.4);
-        --dark-mode__white-faded2: oklch(100% 0 0 / 0.1);
-        --light-mode__black: oklch(0% 0 0);
-        --light-mode__black-faded: oklch(0% 0 0 / 0.4);
-        --light-mode__black-faded2: oklch(0% 0 0 / 0.1);
-        --light-mode__white: oklch(100% 0 0);
-        --light-mode__white-faded: oklch(100% 0 0 / 0.4);
-        --light-mode__white-faded2: oklch(100% 0 0 / 0.1);
+        /* The faded values have been temporarily 
+switched to solid to check to see if they pass the
+W3C validator where the oklch values currently aren't */
+        --dark-mode__black: black;
+        --dark-mode__black-faded: black;
+        --dark-mode__black-faded2: black;
+        --dark-mode__white: white;
+        --dark-mode__white-faded: white;
+        --dark-mode__white-faded2: white;
+        --light-mode__black: balck;
+        --light-mode__black-faded: black;
+        --light-mode__black-faded2: black;
+        --light-mode__white: white;
+        --light-mode__white-faded: white;
+        --light-mode__white-faded2: white;
       }
 
       :root {
@@ -280,18 +283,18 @@
 
       :root {
         /* reverse Base Variables */
-        --dark-mode__match: oklch(0% 0 0);
-        --dark-mode__match-faded: oklch(0% 0 0 / 0.4);
-        --dark-mode__match-faded2: oklch(0% 0 0 / 0.1);
-        --dark-mode__reverse: oklch(100% 0 0);
-        --dark-mode__reverse-faded: oklch(100% 0 0 / 0.4);
-        --dark-mode__reverse-faded2: oklch(100% 0 0 / 0.1);
-        --light-mode__match: oklch(100% 0 0);
-        --light-mode__match-faded: oklch(100% 0 0 / 0.4);
-        --light-mode__match-faded2: oklch(100% 0 0 / 0.1);
-        --light-mode__reverse: oklch(0% 0 0);
-        --light-mode__reverse-faded: oklch(0% 0 0 / 0.4);
-        --light-mode__reverse-faded2: oklch(0% 0 0 / 0.1);
+        --dark-mode__match: black;
+        --dark-mode__match-faded: black;
+        --dark-mode__match-faded2: black;
+        --dark-mode__reverse: white;
+        --dark-mode__reverse-faded: white;
+        --dark-mode__reverse-faded2: white;
+        --light-mode__match: white;
+        --light-mode__match-faded: white;
+        --light-mode__match-faded2: white;
+        --light-mode__reverse: black;
+        --light-mode__reverse-faded: black;
+        --light-mode__reverse-faded2: black;
       }
 
       :root {
